@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-const Search = () => {
+const Search = ({search}) => {
     return (
         <div className='search'>
             <input type="text" name="" id="" />
-            <button>Search</button>
+            <button onClick={search}>Search</button>
         </div>
     )
 }

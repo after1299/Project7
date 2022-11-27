@@ -14,6 +14,21 @@ ul {
   list-style: none;
 }
 
+.morePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem;
+}
+.morePicture button {
+  padding: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background-color: rgb(73, 0, 73);
+  color: #fff;
+  cursor: pointer;
+}
+
 nav {
   background-color: rgb(155, 107, 155);
 }
